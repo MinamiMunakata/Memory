@@ -19,7 +19,7 @@ class MemoryGame {
             cards += [card, card]
         }
         // Shuffle
-        
+        cards.shuffle()
     }
     
     func chooseCard(at index: Int) {
